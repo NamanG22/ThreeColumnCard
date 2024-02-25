@@ -1,2 +1,50 @@
-# ThreeColumnCard
-A responsive front-end design featuring a three-column layout crafted with HTML and CSS Grid/Flexbox for optimal display on various devices.
+# Frontend Mentor - 3-column preview card component solution
+
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+
+### Screenshot
+
+![](Screenshot_25-2-2024_185239_127.0.0.1.jpeg)
+![](Screenshot_25-2-2024_185257_127.0.0.1.jpeg)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Media Queries
+
+### Continued development
+
+I wish, I use percent as the unit more often as it creates every element width and height responsive to the change in width of the viewport.
+
+## Author
+
+- Frontend Mentor - [@NamanG22](https://www.frontendmentor.io/profile/NamanG22)

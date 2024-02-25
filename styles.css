@@ -1,0 +1,107 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.cards{
+    width: 920px;
+    height: 500px;
+    display: flex;
+}
+.cards h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: hsl(0, 0%, 95%);
+}
+.cards p{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    width: 209px;
+}
+.card{
+    padding: 48px;
+}
+.card button{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 68px;
+    height: 48px;
+    width: 146px;
+    background-color: hsl(0, 0%, 95%);
+    box-shadow: none;
+    border: none;
+    border-radius: 24px;
+}
+.card1{
+    width: 307px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.card1 button{
+    color: hsl(31, 77%, 52%);
+}
+.card2{
+    width: 307px;
+    background-color: hsl(184, 100%, 22%);
+}
+.card2 button{
+    color: hsl(184, 100%, 22%);
+}
+.card3{
+    width: 307px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+.card3 button{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0,0,0,0);
+}
+@media (max-width: 800px) {
+    body{
+        place-content: center;
+        height: auto;
+    }
+    .cards{
+        height: auto;
+        width: 327px;
+        display: grid;
+    }
+    .card{
+        width: auto;
+        height: auto;
+    }
+    .card button{
+        margin-top: 10px;
+    }
+    .card p{
+        width: auto;
+    }
+    .card3{
+        border-radius: 0 0 10px 10px;
+    }
+    .card1{
+        border-radius: 10px 10px 0 0;
+    }
+}
+
